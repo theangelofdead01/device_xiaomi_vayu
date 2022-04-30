@@ -57,6 +57,11 @@ TARGET_USES_VULKAN := true
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
+# Fingerprint
+ifeq ($(TARGET_HAS_FOD),true)
+TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/xiaomi:libudfps_extension.xiaomi
+endif
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
