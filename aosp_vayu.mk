@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 # Inherit common configurations from Pixel Experience 
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+ELIXIR_MAINTAINER := Chandler Bing
+ELIXIR_BUILD_TYPE := OFFICIAL
+
 PRODUCT_NAME := aosp_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
