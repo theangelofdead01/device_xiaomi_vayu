@@ -7,5 +7,5 @@ git clone --depth 1 https://github.com/sanjeevstunner/hardware_xiaomi -b 13 hard
 git clone --depth 1 https://github.com/ArrowOS-Devices/android_kernel_xiaomi_vayu -b arrow-13.0 kernel/xiaomi/vayu
 
 # Addons
-git clone --depth 1 https://gitlab.com/sanjeevstunner/vendor-g-cam-bsg vendor/google/camera
+git clone --depth 1 https://gitlab.com/sanjeevstunner/vendor-g-cam-bsg vendor/Gcam
 git clone --depth 1 https://github.com/sanjeevstunner/vendor_xiaomi_device_settings -b los vendor/xiaomi/devicesettings

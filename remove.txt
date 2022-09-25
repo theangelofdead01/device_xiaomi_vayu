@@ -2,4 +2,4 @@ device/xiaomi/
 vendor/xiaomi/
 kernel/xiaomi/
 hardware/xiaomi
-vendor/google/camera
+vendor/Gcam
