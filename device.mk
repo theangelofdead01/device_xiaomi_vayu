@@ -126,6 +126,10 @@ PRODUCT_PACKAGES += \
 # Inherit g cam mod when available 
 $(call inherit-product-if-exists, vendor/google/camera/config.mk)
 
+# DeviceSettings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend
