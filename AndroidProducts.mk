@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_vayu.mk
+    $(LOCAL_DIR)/lineage_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_vayu-eng \
-    aosp_vayu-userdebug \
-    aosp_vayu-user
+    lineage_alioth-userdebug \
+    lineage_alioth-user \
+    lineage_alioth-eng

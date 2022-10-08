@@ -30,6 +30,9 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 # Dynamic partitions setup
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Gapps
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.1-impl \
